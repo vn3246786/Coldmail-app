@@ -11,7 +11,7 @@ const {agenda} = require("./agenda")
 const cors = require("cors")
 
 app.use(cors({
-    origin:process.env.CLIENT_URL
+    origin:`${process.env.CLIENT_URL}`
 }))
 
 app.use(bodyParser.json())
