@@ -26,7 +26,7 @@ export async function login(dispatch,formData){
 
 dispatch({type:"start"})
 try {
-    const res =await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/auth/login`,formData)
+    const res =await axios.post(`${URL}/api/auth/login`,formData)
     if(findError(res.data)){
         dispatch({type:"failure",payload:res.data})
         toast.error(res.data)
