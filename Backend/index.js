@@ -10,7 +10,9 @@ const User = require("./Routes/user")
 const {agenda} = require("./agenda")
 const cors = require("cors")
 
-app.use(cors())
+app.use(cors({
+    origin:process.env.CLIENT_URL
+}))
 
 app.use(bodyParser.json())
 app.use(express.json())
