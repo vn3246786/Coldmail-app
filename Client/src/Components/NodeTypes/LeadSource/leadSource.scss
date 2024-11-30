@@ -1,0 +1,28 @@
+.leadSource{
+    position: relative;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    padding: 0px 10px;
+    border: 1px solid black;
+    align-items: center;
+    gap: 5px;
+    .delete-icon{
+        color: red;
+        position: absolute;
+        top: -8px;
+        right: -8px;
+    }
+    .source-icon{
+        color: palevioletred;
+        font-size: 3rem;
+    }
+    .label{
+        word-break: break-all;
+    }
+    .add-icon{
+        color: grey;
+        margin-left: 10px;
+        font-size: 4rem;
+    }
+}

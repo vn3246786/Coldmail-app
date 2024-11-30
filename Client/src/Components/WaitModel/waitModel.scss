@@ -1,0 +1,43 @@
+.waitModel{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    background-color: white;
+    gap: 10px;
+    height: 190px;
+    width: 400px;
+    top: 0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    .btn{
+        background-color: gray;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+    .close{
+margin-left: auto;   
+ }
+    .wrapper{
+        display: flex;
+    gap: 10px;
+        .container{
+            display: flex;
+            flex-direction: column;
+    .label{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+            .input{
+                padding: 10px;
+                width: 70px;
+                height: 50px;
+            }
+        }
+    }
+}

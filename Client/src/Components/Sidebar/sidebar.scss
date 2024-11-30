@@ -1,0 +1,18 @@
+.sidebar{
+    width: 120px;
+    padding-top: 20px;
+    background-color: rgb(3, 3, 93);
+    height: 90vh;
+    .back{
+        color: white;
+    }
+    
+    .container{
+        cursor: pointer;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: white;
+    }
+}

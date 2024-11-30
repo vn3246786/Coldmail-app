@@ -1,0 +1,36 @@
+.chart{
+    position: relative;
+    width: 80vw;
+    height: 90vh;
+    .spinner{
+        position: absolute;
+    top: 0;bottom: 0;right: 0;left: 0;
+    margin: auto;
+    }
+    
+    .btn-container{
+display: flex;
+gap: 10px;
+position: absolute;
+z-index: 999;
+top: 10px;
+left: 10px;
+.input{
+    padding: 10px;
+}
+        .btn-delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+        }
+        .btn{
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+        }
+    }
+    }

@@ -1,0 +1,40 @@
+.createLeadSource{
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    margin: auto;
+    background-color: white;
+    z-index: 999;
+   height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    padding-top: 10px;
+border: 1px solid black;
+
+    .field{
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+.input{
+    padding: 5px;
+}
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        background-color: rgb(78, 78, 212);
+        font-weight: bolder;
+        color: white;
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
