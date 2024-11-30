@@ -31,7 +31,7 @@ useEffect(()=>{
 
   return (
     <div className='home' >
-          {sequences.loading&&<CircularProgress className='spinner' size={70}/>}  
+          {(sequences.loading||deleteResponse)&&<CircularProgress className='spinner' size={70}/>}  
     <Navbar/>
       <div className="container">
       <Sidebar/>

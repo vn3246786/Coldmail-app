@@ -1,6 +1,7 @@
 .home{
     height: 100vh;
     .spinner{
+        z-index: 999;
         position: absolute;
 top: 0;bottom: 0;right: 0;left: 0;
 margin: auto;
