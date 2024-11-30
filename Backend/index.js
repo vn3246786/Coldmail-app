@@ -20,7 +20,7 @@ app.use("/api/user",User)
 
 
 mongoose.connect(process.env.MONGO_URL).then(()=> console.log('mongodb connected')).catch((error)=> console.log(error))
-app.listen(3000, async () => {
+app.listen(process.env.PORT, async () => {
     try {
         await agenda.start()
         console.log("agenda started")
